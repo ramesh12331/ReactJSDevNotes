@@ -1,0 +1,30 @@
+{
+  "name": "episode_02",
+  "version": "1.0.0",
+  "description": "This is Namaste React By Ramesh",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ramesh12331/namasteReact.git"
+  },
+  "keywords": [
+    "React"
+  ],
+  "author": "ramesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramesh12331/namasteReact/issues"
+  },
+  "homepage": "https://github.com/ramesh12331/namasteReact#readme",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  }
+}
