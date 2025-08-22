@@ -18559,534 +18559,24 @@ var _mockDataDefault = parcelHelpers.interopDefault(_mockData);
 var _s = $RefreshSig$();
 const Body = ()=>{
     _s();
-    //Local State Variables - Super powerfull variable
-    // const [listofRestaurants,setListofRestaurants] = useState([
-    //         {
-    // "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-    // "info": {
-    // "id": "624472",
-    // "name": "Leon's - Burgers & Wings (Leon Grill)",
-    // "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/14/4fe24ecc-ac3a-4ed6-a3ec-b0e5fc09d016_624472.jpg",
-    // "locality": "Himayat Nagar",
-    // "areaName": "Himayath Nagar",
-    // "costForTwo": "₹300 for two",
-    // "cuisines": [
-    // "Burgers",
-    // "American",
-    // "Turkish",
-    // "Portuguese",
-    // "Continental",
-    // "Snacks"
-    // ],
-    // "avgRating": 3,
-    // "parentId": "371281",
-    // "avgRatingString": "4.3",
-    // "totalRatingsString": "13K+",
-    // "sla": {
-    // "deliveryTime": 36,
-    // "lastMileTravel": 7.3,
-    // "serviceability": "SERVICEABLE",
-    // "slaString": "35-40 mins",
-    // "lastMileTravelString": "7.3 km",
-    // "iconType": "ICON_TYPE_EMPTY"
-    // },
-    // "availability": {
-    // "nextCloseTime": "2025-08-22 03:00:00",
-    // "opened": true
-    // },
-    // "badges": {},
-    // "isOpen": true,
-    // "type": "F",
-    // "badgesV2": {
-    // "entityBadges": {
-    // "imageBased": {},
-    // "textBased": {},
-    // "textExtendedBadges": {}
-    // }
-    // },
-    // "aggregatedDiscountInfoV3": {
-    // "header": "40% OFF",
-    // "subHeader": "UPTO ₹80"
-    // },
-    // "orderabilityCommunication": {
-    // "title": {},
-    // "subTitle": {},
-    // "message": {},
-    // "customIcon": {}
-    // },
-    // "differentiatedUi": {
-    // "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-    // "differentiatedUiMediaDetails": {
-    // "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-    // "lottie": {},
-    // "video": {}
-    // }
-    // },
-    // "reviewsSummary": {},
-    // "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-    // "restaurantOfferPresentationInfo": {},
-    // "externalRatings": {
-    // "aggregatedRating": {
-    // "rating": "4.6",
-    // "ratingCount": "3.2K+"
-    // },
-    // "source": "GOOGLE",
-    // "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
-    // },
-    // "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-    // },
-    // "analytics": {
-    // "context": "seo-data-228bebf4-6c0a-46b0-ac99-3b2a3ab4765e"
-    // },
-    // "cta": {
-    // "link": "https://www.swiggy.com/city/hyderabad/leons-burgers-and-wings-leon-grill-himayat-nagar-himayath-nagar-rest624472",
-    // "text": "RESTAURANT_MENU",
-    // "type": "WEBLINK"
-    // },
-    // "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-    // },
-    // {
-    // "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-    // "info": {
-    // "id": "518650",
-    // "name": "Burger King",
-    // "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/18/b93955b1-55d2-44d8-a641-66a2e10cbe4d_518650.jpg",
-    // "locality": "Praga Mall",
-    // "areaName": "Nallakunta & Vidyanagar",
-    // "costForTwo": "₹350 for two",
-    // "cuisines": [
-    // "Burgers",
-    // "American"
-    // ],
-    // "avgRating": 4.2,
-    // "parentId": "166",
-    // "avgRatingString": "4.2",
-    // "totalRatingsString": "15K+",
-    // "sla": {
-    // "deliveryTime": 31,
-    // "lastMileTravel": 5.7,
-    // "serviceability": "SERVICEABLE",
-    // "slaString": "30-35 mins",
-    // "lastMileTravelString": "5.7 km",
-    // "iconType": "ICON_TYPE_EMPTY"
-    // },
-    // "availability": {
-    // "nextCloseTime": "2025-08-22 03:00:00",
-    // "opened": true
-    // },
-    // "badges": {
-    // "imageBadges": [
-    // {
-    // "imageId": "Rxawards/_CATEGORY-Burger.png",
-    // "description": "Delivery!"
-    // }
-    // ]
-    // },
-    // "isOpen": true,
-    // "type": "F",
-    // "badgesV2": {
-    // "entityBadges": {
-    // "imageBased": {
-    // "badgeObject": [
-    // {
-    // "attributes": {
-    // "description": "Delivery!",
-    // "imageId": "Rxawards/_CATEGORY-Burger.png"
-    // }
-    // }
-    // ]
-    // },
-    // "textBased": {},
-    // "textExtendedBadges": {}
-    // }
-    // },
-    // "aggregatedDiscountInfoV3": {
-    // "header": "ITEMS",
-    // "subHeader": "AT ₹59"
-    // },
-    // "orderabilityCommunication": {
-    // "title": {},
-    // "subTitle": {},
-    // "message": {},
-    // "customIcon": {}
-    // },
-    // "differentiatedUi": {
-    // "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-    // "differentiatedUiMediaDetails": {
-    // "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-    // "lottie": {},
-    // "video": {}
-    // }
-    // },
-    // "reviewsSummary": {},
-    // "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-    // "restaurantOfferPresentationInfo": {},
-    // "externalRatings": {
-    // "aggregatedRating": {
-    // "rating": "--"
-    // }
-    // },
-    // "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-    // },
-    // "analytics": {
-    // "context": "seo-data-228bebf4-6c0a-46b0-ac99-3b2a3ab4765e"
-    // },
-    // "cta": {
-    // "link": "https://www.swiggy.com/city/hyderabad/burger-king-praga-mall-nallakunta-and-vidyanagar-rest518650",
-    // "text": "RESTAURANT_MENU",
-    // "type": "WEBLINK"
-    // },
-    // "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-    // },
-    // {
-    // "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-    // "info": {
-    // "id": "13620",
-    // "name": "Subway",
-    // "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/12/08b171fe-dcf6-4569-9719-fc6f83b9504c_13620.jpg",
-    // "locality": "Raj Bhavan Road",
-    // "areaName": "Raj Bhavan Road ",
-    // "costForTwo": "₹350 for two",
-    // "cuisines": [
-    // "sandwich",
-    // "Salads",
-    // "wrap",
-    // "Healthy Food"
-    // ],
-    // "avgRating": 4.2,
-    // "parentId": "2",
-    // "avgRatingString": "4.2",
-    // "totalRatingsString": "8.4K+",
-    // "sla": {
-    // "deliveryTime": 34,
-    // "lastMileTravel": 4.1,
-    // "serviceability": "SERVICEABLE",
-    // "slaString": "30-35 mins",
-    // "lastMileTravelString": "4.1 km",
-    // "iconType": "ICON_TYPE_EMPTY"
-    // },
-    // "availability": {
-    // "nextCloseTime": "2025-08-22 07:59:00",
-    // "opened": true
-    // },
-    // "badges": {},
-    // "isOpen": true,
-    // "type": "F",
-    // "badgesV2": {
-    // "entityBadges": {
-    // "imageBased": {},
-    // "textBased": {},
-    // "textExtendedBadges": {}
-    // }
-    // },
-    // "aggregatedDiscountInfoV3": {
-    // "header": "ITEMS",
-    // "subHeader": "AT ₹119"
-    // },
-    // "orderabilityCommunication": {
-    // "title": {},
-    // "subTitle": {},
-    // "message": {},
-    // "customIcon": {}
-    // },
-    // "differentiatedUi": {
-    // "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-    // "differentiatedUiMediaDetails": {
-    // "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-    // "lottie": {},
-    // "video": {}
-    // }
-    // },
-    // "reviewsSummary": {},
-    // "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-    // "restaurantOfferPresentationInfo": {},
-    // "externalRatings": {
-    // "aggregatedRating": {
-    // "rating": "3.5",
-    // "ratingCount": "44"
-    // },
-    // "source": "GOOGLE",
-    // "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
-    // },
-    // "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-    // },
-    // "analytics": {
-    // "context": "seo-data-228bebf4-6c0a-46b0-ac99-3b2a3ab4765e"
-    // },
-    // "cta": {
-    // "link": "https://www.swiggy.com/city/hyderabad/subway-raj-bhavan-road-rest13620",
-    // "text": "RESTAURANT_MENU",
-    // "type": "WEBLINK"
-    // },
-    // "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-    // },
-    // ])
-    const [listofRestaurants, setListofRestaurants] = (0, _react.useState)((0, _mockDataDefault.default));
-    // const [listofRestaurants,setListofRestaurants] = arr;
-    //  const listofRestaurants = arr[0];
-    //  const setListofRestaurants = arr[1];
-    //Normal JS Variables
-    //     let listofRestaurants = [
-    //         {
-    // "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-    // "info": {
-    // "id": "624472",
-    // "name": "Leon's - Burgers & Wings (Leon Grill)",
-    // "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/14/4fe24ecc-ac3a-4ed6-a3ec-b0e5fc09d016_624472.jpg",
-    // "locality": "Himayat Nagar",
-    // "areaName": "Himayath Nagar",
-    // "costForTwo": "₹300 for two",
-    // "cuisines": [
-    // "Burgers",
-    // "American",
-    // "Turkish",
-    // "Portuguese",
-    // "Continental",
-    // "Snacks"
-    // ],
-    // "avgRating": 4.3,
-    // "parentId": "371281",
-    // "avgRatingString": "4.3",
-    // "totalRatingsString": "13K+",
-    // "sla": {
-    // "deliveryTime": 36,
-    // "lastMileTravel": 7.3,
-    // "serviceability": "SERVICEABLE",
-    // "slaString": "35-40 mins",
-    // "lastMileTravelString": "7.3 km",
-    // "iconType": "ICON_TYPE_EMPTY"
-    // },
-    // "availability": {
-    // "nextCloseTime": "2025-08-22 03:00:00",
-    // "opened": true
-    // },
-    // "badges": {},
-    // "isOpen": true,
-    // "type": "F",
-    // "badgesV2": {
-    // "entityBadges": {
-    // "imageBased": {},
-    // "textBased": {},
-    // "textExtendedBadges": {}
-    // }
-    // },
-    // "aggregatedDiscountInfoV3": {
-    // "header": "40% OFF",
-    // "subHeader": "UPTO ₹80"
-    // },
-    // "orderabilityCommunication": {
-    // "title": {},
-    // "subTitle": {},
-    // "message": {},
-    // "customIcon": {}
-    // },
-    // "differentiatedUi": {
-    // "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-    // "differentiatedUiMediaDetails": {
-    // "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-    // "lottie": {},
-    // "video": {}
-    // }
-    // },
-    // "reviewsSummary": {},
-    // "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-    // "restaurantOfferPresentationInfo": {},
-    // "externalRatings": {
-    // "aggregatedRating": {
-    // "rating": "4.6",
-    // "ratingCount": "3.2K+"
-    // },
-    // "source": "GOOGLE",
-    // "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
-    // },
-    // "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-    // },
-    // "analytics": {
-    // "context": "seo-data-228bebf4-6c0a-46b0-ac99-3b2a3ab4765e"
-    // },
-    // "cta": {
-    // "link": "https://www.swiggy.com/city/hyderabad/leons-burgers-and-wings-leon-grill-himayat-nagar-himayath-nagar-rest624472",
-    // "text": "RESTAURANT_MENU",
-    // "type": "WEBLINK"
-    // },
-    // "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-    // },
-    // {
-    // "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-    // "info": {
-    // "id": "518650",
-    // "name": "Burger King",
-    // "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/18/b93955b1-55d2-44d8-a641-66a2e10cbe4d_518650.jpg",
-    // "locality": "Praga Mall",
-    // "areaName": "Nallakunta & Vidyanagar",
-    // "costForTwo": "₹350 for two",
-    // "cuisines": [
-    // "Burgers",
-    // "American"
-    // ],
-    // "avgRating": 4.2,
-    // "parentId": "166",
-    // "avgRatingString": "4.2",
-    // "totalRatingsString": "15K+",
-    // "sla": {
-    // "deliveryTime": 31,
-    // "lastMileTravel": 5.7,
-    // "serviceability": "SERVICEABLE",
-    // "slaString": "30-35 mins",
-    // "lastMileTravelString": "5.7 km",
-    // "iconType": "ICON_TYPE_EMPTY"
-    // },
-    // "availability": {
-    // "nextCloseTime": "2025-08-22 03:00:00",
-    // "opened": true
-    // },
-    // "badges": {
-    // "imageBadges": [
-    // {
-    // "imageId": "Rxawards/_CATEGORY-Burger.png",
-    // "description": "Delivery!"
-    // }
-    // ]
-    // },
-    // "isOpen": true,
-    // "type": "F",
-    // "badgesV2": {
-    // "entityBadges": {
-    // "imageBased": {
-    // "badgeObject": [
-    // {
-    // "attributes": {
-    // "description": "Delivery!",
-    // "imageId": "Rxawards/_CATEGORY-Burger.png"
-    // }
-    // }
-    // ]
-    // },
-    // "textBased": {},
-    // "textExtendedBadges": {}
-    // }
-    // },
-    // "aggregatedDiscountInfoV3": {
-    // "header": "ITEMS",
-    // "subHeader": "AT ₹59"
-    // },
-    // "orderabilityCommunication": {
-    // "title": {},
-    // "subTitle": {},
-    // "message": {},
-    // "customIcon": {}
-    // },
-    // "differentiatedUi": {
-    // "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-    // "differentiatedUiMediaDetails": {
-    // "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-    // "lottie": {},
-    // "video": {}
-    // }
-    // },
-    // "reviewsSummary": {},
-    // "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-    // "restaurantOfferPresentationInfo": {},
-    // "externalRatings": {
-    // "aggregatedRating": {
-    // "rating": "--"
-    // }
-    // },
-    // "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-    // },
-    // "analytics": {
-    // "context": "seo-data-228bebf4-6c0a-46b0-ac99-3b2a3ab4765e"
-    // },
-    // "cta": {
-    // "link": "https://www.swiggy.com/city/hyderabad/burger-king-praga-mall-nallakunta-and-vidyanagar-rest518650",
-    // "text": "RESTAURANT_MENU",
-    // "type": "WEBLINK"
-    // },
-    // "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-    // },
-    // {
-    // "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-    // "info": {
-    // "id": "13620",
-    // "name": "Subway",
-    // "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/12/08b171fe-dcf6-4569-9719-fc6f83b9504c_13620.jpg",
-    // "locality": "Raj Bhavan Road",
-    // "areaName": "Raj Bhavan Road ",
-    // "costForTwo": "₹350 for two",
-    // "cuisines": [
-    // "sandwich",
-    // "Salads",
-    // "wrap",
-    // "Healthy Food"
-    // ],
-    // "avgRating": 4.2,
-    // "parentId": "2",
-    // "avgRatingString": "4.2",
-    // "totalRatingsString": "8.4K+",
-    // "sla": {
-    // "deliveryTime": 34,
-    // "lastMileTravel": 4.1,
-    // "serviceability": "SERVICEABLE",
-    // "slaString": "30-35 mins",
-    // "lastMileTravelString": "4.1 km",
-    // "iconType": "ICON_TYPE_EMPTY"
-    // },
-    // "availability": {
-    // "nextCloseTime": "2025-08-22 07:59:00",
-    // "opened": true
-    // },
-    // "badges": {},
-    // "isOpen": true,
-    // "type": "F",
-    // "badgesV2": {
-    // "entityBadges": {
-    // "imageBased": {},
-    // "textBased": {},
-    // "textExtendedBadges": {}
-    // }
-    // },
-    // "aggregatedDiscountInfoV3": {
-    // "header": "ITEMS",
-    // "subHeader": "AT ₹119"
-    // },
-    // "orderabilityCommunication": {
-    // "title": {},
-    // "subTitle": {},
-    // "message": {},
-    // "customIcon": {}
-    // },
-    // "differentiatedUi": {
-    // "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-    // "differentiatedUiMediaDetails": {
-    // "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-    // "lottie": {},
-    // "video": {}
-    // }
-    // },
-    // "reviewsSummary": {},
-    // "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-    // "restaurantOfferPresentationInfo": {},
-    // "externalRatings": {
-    // "aggregatedRating": {
-    // "rating": "3.5",
-    // "ratingCount": "44"
-    // },
-    // "source": "GOOGLE",
-    // "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
-    // },
-    // "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-    // },
-    // "analytics": {
-    // "context": "seo-data-228bebf4-6c0a-46b0-ac99-3b2a3ab4765e"
-    // },
-    // "cta": {
-    // "link": "https://www.swiggy.com/city/hyderabad/subway-raj-bhavan-road-rest13620",
-    // "text": "RESTAURANT_MENU",
-    // "type": "WEBLINK"
-    // },
-    // "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-    // },
-    // ]
+    const [listofRestaurants, setListofRestaurants] = (0, _react.useState)([]);
+    (0, _react.useEffect)(()=>{
+        fetchData();
+    }, []);
+    const fetchData = async ()=>{
+        const data = await fetch("https://www.swiggy.com/mapi/restaurants/list/v5?offset=0&is-seo-homepage-enabled=true&lat=17.4447068&lng=78.4663812&carousel=true&third_party_vendor=1");
+        const json = await data.json();
+        console.log(json.data);
+        // console.log(json.data.cards[1]);
+        setListofRestaurants(json?.data.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+    };
+    // const fetchData = async () => {
+    //         const data = await fetch("https://www.swiggy.com/mapi/restaurants/list/v5?offset=0&is-seo-homepage-enabled=true&lat=17.4447068&lng=78.4663812&carousel=true&third_party_vendor=1");
+    //         const json = await data.json();
+    //         const restaurants = json?.data.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants || [];
+    //         setListofRestaurants(restaurants);
+    //         setOriginalList(restaurants); // Store the original list for resetting
+    //     };
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "body",
         children: [
@@ -19097,17 +18587,16 @@ const Body = ()=>{
                     onClick: ()=>{
                         const filteredList = listofRestaurants.filter((res)=>res.info.avgRating > 4.3);
                         setListofRestaurants(filteredList);
-                    // console.log(listofRestaurants)
                     },
                     children: "Top Rated Restaurant"
                 }, void 0, false, {
                     fileName: "src/components/Body.js",
-                    lineNumber: 542,
+                    lineNumber: 35,
                     columnNumber: 17
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/Body.js",
-                lineNumber: 541,
+                lineNumber: 34,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -19116,22 +18605,22 @@ const Body = ()=>{
                         resData: restaurant
                     }, restaurant.info.id, false, {
                         fileName: "src/components/Body.js",
-                        lineNumber: 555,
+                        lineNumber: 47,
                         columnNumber: 21
                     }, undefined))
             }, void 0, false, {
                 fileName: "src/components/Body.js",
-                lineNumber: 550,
+                lineNumber: 43,
                 columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/Body.js",
-        lineNumber: 540,
+        lineNumber: 33,
         columnNumber: 9
     }, undefined);
 };
-_s(Body, "6/9Lxy+w039QDc2PoMwWF0SPWx8=");
+_s(Body, "aLSVFREsGx8TYWdZSn6fQJcTFsU=");
 _c = Body;
 exports.default = Body;
 var _c;
@@ -19142,7 +18631,7 @@ $RefreshReg$(_c, "Body");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./RestarentCard":"p6cXz","../utils/mockData":"4sSQA","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"p6cXz":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./RestarentCard":"p6cXz","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","../utils/mockData":"4sSQA"}],"p6cXz":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$a921 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$a921.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
